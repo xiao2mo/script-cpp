@@ -1,0 +1,11 @@
+reference:
+link1-static: https://www.cnblogs.com/ucas/p/5778664.html
+link2-shared: https://www.cnblogs.com/secondtonone1/p/5524351.html
+
+static: 
+	ar -cr  libsay.a  sayhello.o say.o
+	g++ saymain.cpp libsay.a -o saymain
+dynamic:
+	
+
+
